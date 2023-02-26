@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="keywords" content="PornHub图标生成器">
+	<meta name="description" content="PornHub图标生成器">	
+	<title>PornHub图标生成器</title>
+	<link href="https://www.qingwei.tech/somehub/favicon.ico" rel="shortcut icon">
+	<link href="./files/bootstrap.min.css" rel="stylesheet">
+	<link href="./files/bootstrap-colorpicker.min.css" rel="stylesheet">
+	<link href="./files/style.css" rel="stylesheet">	
+</head>
+<body>
+<div class="container">
+    <h1><span class="porn-title">Porn</span><span class="hub-title">hub</span> 图标生成器</h1>
+	<hr>
+	
+	<p></p>
+	<p></p>
+    <div class="row">
+        <div class="col-md-2">
+            <label for="Size">文字大小</label>
+            <select class="form-control" id="Size" onchange="resize()">
+                <option value="80px">80px</option>
+                <option value="90px">90px</option>
+                <option value="100px">100px</option>
+                <option value="120px">120px</option>
+                <option value="125px" selected="">125px</option>
+                <option value="130px">130px</option>
+                <option value="140px">140px</option>
+                <option value="150px">150px</option>
+			</select>			
+		</div>
+		<div class="col-md-2">
+			<label for="Bgcolor">背景颜色</label>
+			<input type="text" value="#000000" id="Bgcolor" class="form-control colorpicker-element" onchange="changeBgColor(this)">
+		</div>
+		<div class="col-md-2">
+			<label for="Quality">输出质量</label>
+			<select class="form-control" id="Quality" onchange="changeQuality()">
+				<option value="1" selected="">原图</option>
+				<option value="0.8">高等</option>
+				<option value="0.5">中等</option>
+				<option value="0.3">低等</option>
+			</select>
+		</div>
+		<div class="col-md-2">
+			<label for="download">&nbsp;</label>
+			<button type="submit" class="btn btn-primary dl-button form-control" id="download" onclick="grabCanvas()">
+				保存至本地
+			</button>
+		</div>
+    </div>    
+    <p></p>
+</div>
+<div class="flexcontainer">
+    <div class="hub" id="pornhub" style="background-color: rgb(0, 0, 0);">
+        <span id="porntext" style="color: white; font-size: 125px;" contenteditable="true">Porn</span>
+        <span id="hubtext" contenteditable="true" style="font-size: 125px;">Hub</span>
+    </div>
+</div>
+<div class="footer container">
+    <hr>
+    <p>PornHub图标生成器 <span style="color:#965556;"></span> Copyright 2023&nbsp;<a href="https://github.com/CoderM145">CoderM</a>&nbsp;. All Rights Reserved.</p>
+</div>
+<script src="./files/jquery.min.js.下载"></script>
+<script src="./files/popper.min.js.下载"></script>
+<script src="./files/bootstrap.min.js.下载"></script>
+<script src="./files/bootstrap-colorpicker.min.js.下载"></script>
+<script src="./files/html2canvas.min.js.下载"></script>
+<script src="./files/custom.js.下载"></script>
+
+<div class="colorpicker dropdown-menu colorpicker-hidden colorpicker-with-alpha colorpicker-right"><div class="colorpicker-saturation" style="background-color: rgb(255, 0, 0);"><i style="top: 100px; left: 0px;"><b></b></i></div><div class="colorpicker-hue"><i style="top: 100px;"></i></div><div class="colorpicker-alpha" style="background-color: rgb(0, 0, 0);"><i style="top: 0px;"></i></div><div class="colorpicker-color" style="background-color: rgb(0, 0, 0);"><div style="background-color: rgb(0, 0, 0);"></div></div><div class="colorpicker-selectors"></div></div></body></html>
